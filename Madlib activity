@@ -1,0 +1,20 @@
+def text_prompt(msg):
+ return input(msg)
+ 
+  
+  
+print('Welcome to your madlibs story')
+Name_01= text_prompt('Name:')
+noun1= text_prompt('noun:')
+verb1= text_prompt('verb')
+adjective1= text_prompt('adjective')
+adjective2= text_prompt('adjective')
+noun2= text_prompt('noun')
+noun3= text_prompt('noun')
+Name2= text_prompt('name')
+
+
+
+
+
+print('You were casually flying through the sky when'  +Name_01+   'decided to join you in going to the   '+noun1+   '.You were having a fun time when suddenly'    +Name_01+   'started to'   +verb1+   'You thought to yourself that they are'+adjective1+ 'and that they used to be'   +adjective2+   '. When they started'   +verb1+    'they did this all the way until they reached'    +noun2+    'and then they did that until they reached'   +noun3+   'and finally they rested in the jungles of the Amazon with'  +Name2+   '.')
